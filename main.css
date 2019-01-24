@@ -1,8 +1,101 @@
-h1, h2, body {
+/*pre-sets*/
+
+
+/*all elements*/
+* {
     font-family: 'Montserrat', sans-serif;
-    /*font-family: "Times New Roman";*/
     text-align: center;
+
+
 }
- #test {
-     font-family: "Times New Roman";
+
+/*header*/
+
+header  {
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+
+}
+h1 {
+    margin-top: 0;
+    padding-top: 20px;
+}
+#h2-header {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+ /*navigation*/
+nav{
+    border: rgba(123, 199, 188, 0.95) 2px solid;
+    height: 45px;
+    margin: 0;
+}
+
+
+ ul{
+     margin-left: 40px ;
  }
+
+  ul li{
+      display: inline;
+      float: left;
+      padding: 10px;
+      font-weight: bold;
+      font-size: 14px;
+
+  }
+
+.social-media {
+    /*display: inline;
+    float:right;
+    margin-right: 50px;
+    margin-left: 0;
+    color: green;
+    padding-left: 0;
+    padding-bottom: 10px;*/
+
+    position: absolute;
+    top:115px;
+    right: 80px;
+}
+
+
+
+  /*main section*/
+main{
+    margin: 0;
+}
+
+img {
+    height: 300px;
+    width: auto;
+    padding: 20px;
+}
+
+.grid {
+    /*display: inline-grid;*/
+
+    float: left;
+    /*display: inline;*/
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+
+    display: inline;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered:hover {
+    font-weight: bold;
+}
