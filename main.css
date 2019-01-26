@@ -14,8 +14,8 @@
 header  {
     margin: 0;
     padding: 0;
-    background-color: lightgray;
 
+    background-image: linear-gradient( to bottom, dimgrey, white );
 }
 h1 {
     margin-top: 0;
@@ -29,9 +29,15 @@ h1 {
 
  /*navigation*/
 nav{
-    border: rgba(123, 199, 188, 0.95) 2px solid;
+
     height: 45px;
     margin: 0;
+
+    background-color:rgb(48, 53, 61) ;
+    /*background-image: linear-gradient( to bottom, rgb(48, 53, 61), rgb(160, 175, 175) );*/
+    background-image: linear-gradient( to bottom, white, darkgrey );
+    /*border: grey 2px solid;*/
+    color: white;
 }
 
 
@@ -67,6 +73,7 @@ nav{
   /*main section*/
 main{
     margin: 0;
+
 }
 
 img {
@@ -75,27 +82,48 @@ img {
     padding: 20px;
 }
 
-.grid {
-    /*display: inline-grid;*/
+/*.grid {
+    display: inline-grid;
 
     float: left;
-    /*display: inline;*/
-}
+    display: inline;
+}  */
 
-.container {
+
+
+.s-container {
     position: relative;
     text-align: center;
     color: white;
 
-    display: inline;
+    display: inline-block;
+
+
 }
 .centered {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+
 }
 
 .centered:hover {
     font-weight: bold;
+}
+
+footer{
+    clear: left;
+    font-weight: bold;
+    background-color: dimgrey;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+footer p {
+    padding-top: 15px;
+
 }
