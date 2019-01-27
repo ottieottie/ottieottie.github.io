@@ -100,6 +100,15 @@ img {
 
 
 }
+
+/*hiding the 9th pic when screen narrow and 2 columns result*/
+@media only screen and (max-width: 1168px){
+    #hide {
+        display: none;
+}
+}
+
+
 .centered {
     position: absolute;
     top: 50%;
