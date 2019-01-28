@@ -13,6 +13,7 @@ body {
     margin: 0;
 
     height: 100%;
+    min-height: 100%;
 }
 
 /*header*/
@@ -81,6 +82,7 @@ nav{
 main{
     margin: 0;
 
+    padding-bottom: 40px;
 }
 
 img {
@@ -128,6 +130,10 @@ img {
 .centered:hover {
     font-weight: bold;
 }
+
+
+
+
 
 footer{
     clear: left;
